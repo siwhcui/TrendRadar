@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 98</p><p>生成时间: 2025-11-11 09:38:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E6%B1%BD%E8%BD%A6%E5%AF%B9%E4%BF%84%E5%87%BA%E5%8F%A3%E9%AA%A4%E9%99%8D58%25%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D10%26flag%3D1%26pos%3D10%26dgr%3D0%26c_type%3D31%26cate%3D5001%26filter_type%3Drealtimehot%26band_rank%3D10%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E6%25B1%25BD%25E8%25BD%25A6%25E5%25AF%25B9%25E4%25BF%2584%25E5%2587%25BA%25E5%258F%25A3%25E9%25AA%25A4%25E9%2599%258D58%2525%2523%26display_time%3D1762825057%26pre_seqid%3D176282505741601994790147&amp;launchid=10000360-page_H5" target="_blank" class="news-link">中国汽车对俄出口骤降58%</a> [10] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571028119319658550/" target="_blank" class="news-link">汉堡王中国也被卖了</a> [15] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31930405" target="_blank" class="news-link">中国机会｜“世界上最美的汽车”亮相进博会，李心尹：“经典车”在中国是片蓝海市场</a> [18] <font color='grey'>- 09时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">手机</td>
+                <td class="count">2</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31928723" target="_blank" class="news-link">劣质硬盘横行5大电商平台，澎湃记者购买6块：发货地和发货人手机号码均相同</a> [16] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%BB%BA%E8%AE%AE%E6%B3%A8%E9%94%80%E6%89%8B%E6%9C%BA%E5%8F%B7%E5%89%8D%E5%A4%9A%E5%81%9A%E8%BF%99%E4%B8%80%E6%AD%A5&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D25%26flag%3D0%26pos%3D25%26dgr%3D0%26c_type%3D31%26cate%3D5001%26filter_type%3Drealtimehot%26band_rank%3D25%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%25E5%25BB%25BA%25E8%25AE%25AE%25E6%25B3%25A8%25E9%2594%2580%25E6%2589%258B%25E6%259C%25BA%25E5%258F%25B7%25E5%2589%258D%25E5%25A4%259A%25E5%2581%259A%25E8%25BF%2599%25E4%25B8%2580%25E6%25AD%25A5%26display_time%3D1762825057%26pre_seqid%3D176282505741601994790147&amp;launchid=10000360-page_H5" target="_blank" class="news-link">建议注销手机号前多做这一步</a> [25] <font color='grey'>- 09时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1969358388543611199" target="_blank" class="news-link">如何看待佐赫兰·马姆达尼（Zohran Mamdani）当选为纽约市长？这会对美国政治产生什么影响？</a> [10] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571240185996774918/" target="_blank" class="news-link">媒体人：特朗普给美国民众画大饼</a> [30] <font color='grey'>- 09时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%B0%8F%E7%B1%B3SU7%E6%94%B9%E6%AC%BE%E6%B6%A8%E4%BB%B7%E8%BF%911%E4%B8%87&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D16%26flag%3D0%26pos%3D16%26dgr%3D0%26c_type%3D31%26cate%3D5001%26filter_type%3Drealtimehot%26band_rank%3D16%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%25E5%25B0%258F%25E7%25B1%25B3SU7%25E6%2594%25B9%25E6%25AC%25BE%25E6%25B6%25A8%25E4%25BB%25B7%25E8%25BF%25911%25E4%25B8%2587%26display_time%3D1762825057%26pre_seqid%3D176282505741601994790147&amp;launchid=10000360-page_H5" target="_blank" class="news-link">小米SU7改款涨价近1万</a> [16] <font color='grey'>- 09时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2301170" target="_blank" class="news-link">四喜买了苹果香当插曲</a> [22] <font color='grey'>- 09时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2196521" target="_blank" class="news-link">美参议员指责AI热潮推高电价 要求白宫应对数据中心用电压力</a> [10] <font color='grey'>- 09时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759018" target="_blank" class="news-link">美政府关门有望结束，科技股引领纳指大反弹，英伟达涨近6%，金银大涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
