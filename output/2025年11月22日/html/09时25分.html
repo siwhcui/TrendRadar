@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 71</p><p>生成时间: 2025-11-22 09:25:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">5.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759852" target="_blank" class="news-link">AH股深度调整，创业板跌超3%，恒科指下跌1.8%，锂矿股领跌，AI应用逆势上涨，碳酸锂期货跌停</a> [9] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759841" target="_blank" class="news-link">关注AI泡沫，别只盯着英伟达和甲骨文CDS，美国万亿“私募信贷”正在爆大雷</a> [10] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575051643448741439/" target="_blank" class="news-link">胡彦斌疑似承认恋情：接吻视频非AI</a> [12] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%83%A1%E5%BD%A6%E6%96%8C%E5%9B%9E%E5%BA%94%E4%BA%B2%E5%90%BB%E7%85%A7%EF%BC%9A%E4%B8%8D%E6%98%AFAI" target="_blank" class="news-link">胡彦斌回应亲吻照：不是AI</a> [21] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">4.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7574611399990345755/" target="_blank" class="news-link">媒体：美日同流合污考验中国战略定力</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A9%BB%E5%8C%97%E9%A9%AC%E5%85%B6%E9%A1%BF%E5%A4%A7%E4%BD%BF%E9%A6%86%E5%8F%91%E5%85%AC%E5%BC%80%E4%BF%A1%E8%AD%A6%E5%91%8A" target="_blank" class="news-link">中国驻北马其顿大使馆发公开信警告</a> [6] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%86%8D%E5%8F%96%E4%BB%A3%E7%BE%8E%E5%9B%BD+%E6%88%90%E5%BE%B7%E5%9B%BD%E6%9C%80%E5%A4%A7%E8%B4%B8%E6%98%93%E4%BC%99%E4%BC%B4" target="_blank" class="news-link">中国再取代美国 成德国最大贸易伙伴</a> [28] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759889" target="_blank" class="news-link">一文读懂大跌逻辑--高盛交易员“复盘”：美联储转鹰“拉开帷幕”，谷歌而非英伟达重塑“AI交易”，币圈重创散户，最终是“系统性抛售”</a> [6] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759842" target="_blank" class="news-link">美联储高官安抚市场，美国股债汇齐涨，原油三连跌，加密货币本周两位数大跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
